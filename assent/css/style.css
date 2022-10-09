@@ -1,0 +1,52 @@
+.flex-container {
+    display: flex;
+}
+
+.left {
+    flex-direction: column;
+    border-style: solid;
+    
+}
+
+.card {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 216);
+}
+
+.logo {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%px;
+    
+    display: flex;
+    align-items: center;
+}
+.state-users {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;   
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
+.tam-users {
+    padding: 10px;
+    width: 90px; 
+}
+
+.new-chat {
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+
+ .right {
+    width: 60%;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
